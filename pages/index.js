@@ -7,6 +7,7 @@ import About from "../Components/About"
 import Services from "../Components/Services"
 import Projects from "../Components/Projects"
 import Experience from "../Components/Experience"
+import Contact from "../Components/Contact"
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Services/>
       <Experience/>
       <Projects/>
+      <Contact/>
     </div>
   )
 }
