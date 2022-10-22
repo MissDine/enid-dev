@@ -8,7 +8,7 @@ import webdesign from "../images/Group 5.png"
 
 function Services() {
   return (
-    <div className='col-sm-12' style={{backgroundColor:"#FFFFFF"}}>
+    <div className='col-sm-12' style={{backgroundColor:"#FFFFFF"}} id="services">
         <h1>My Services</h1>
         <div className="row">
             <div className="col-md-4">

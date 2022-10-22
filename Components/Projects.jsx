@@ -6,7 +6,7 @@ import Image from "next/image"
 
 function Projects() {
   return (
-    <div className='col-sm-12' style={{backgroundColor:"#EAF6F6"}}>
+    <div className='col-sm-12' style={{backgroundColor:"#EAF6F6"}} id="projects">
     <h1>My Services</h1>
     <div className="row">
             <div className="col-md-4 col-sm-12">

@@ -4,7 +4,7 @@ import image from "../images/Group 7 (6).png"
 
 function Experience() {
   return (
-    <div className='col-sm-12'>
+    <div className='col-sm-12' id="experience">
         <h1>Experience</h1>
         <div className="row">
             <div className="col-md-4 col-sm-12">

@@ -6,7 +6,7 @@ import eni from "../images/Missdine.jpeg"
 
 function Header() {
   return (
-    <div className="col-sm-12" style={{backgroundColor:"#66BFBF"}}>
+    <div className="col-sm-12" style={{backgroundColor:"#66BFBF"}} id="header">
       <div className="row" style={{justifyContent:"center",alignItems:"center"}}>
         <div className="col-md-6" style={{height:"400px", width:"300px", marginTop:"6vh"}}>
           <Image src={eni} alt="" style={{height:"10px", width:"10px",borderRadius:"50%"}}/>

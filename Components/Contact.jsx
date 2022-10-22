@@ -19,7 +19,7 @@ function Contact() {
         })
     }
   return (
-    <div className='col-sm-12' style={{backgroundColor:"#66BFBF"}}>
+    <div className='col-sm-12' style={{backgroundColor:"#66BFBF"}} id="contact">
       <h1>Contact Me</h1>
       <div className="col-sm-12">
       <form onSubmit={HandleSubmit}>
