@@ -1,8 +1,10 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import web from "../images/Group 5.png"
+import ui from "../images/Prototyping process-amico.png"
 import Image from "next/image"
+import webdevelopment from "../images/Static assets-cuate.png"
+import webdesign from "../images/Group 5.png"
 
 function Services() {
   return (
@@ -10,8 +12,20 @@ function Services() {
         <h1>My Services</h1>
         <div className="row">
             <div className="col-md-4">
-            <Card style={{ width: '18rem' }}>
-      <Image src={web} alt="" />
+            <Card style={{ width: '18rem',height:"250px" }}>
+      <Image src={ui} alt="" />
+    </Card>
+    <p>Web</p>
+            </div>
+            <div className="col-md-4">
+            <Card style={{ width: '18rem' ,height:"250px" }}>
+      <Image src={webdesign} alt="" />
+    </Card>
+    <p>Web</p>
+            </div>
+            <div className="col-md-4">
+            <Card style={{ width: '18rem',height:"250px"  }}>
+      <Image src={webdevelopment} alt="" />
     </Card>
     <p>Web</p>
             </div>

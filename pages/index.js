@@ -5,6 +5,8 @@ import Navbar from "../Components/Navbar.jsx"
 import  Header from "../Components/Header.jsx"
 import About from "../Components/About"
 import Services from "../Components/Services"
+import Projects from "../Components/Projects"
+import Experience from "../Components/Experience"
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Header/>
       <About/>
       <Services/>
+      <Experience/>
+      <Projects/>
     </div>
   )
 }
