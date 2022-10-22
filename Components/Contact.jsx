@@ -23,8 +23,8 @@ function Contact() {
       <h1>Contact Me</h1>
       <div className="col-sm-12">
       <form onSubmit={HandleSubmit}>
-                <div className="col-sm-12" style={{justifyContent:"center",alignItems:"center",display:"flex"}}>
-                <div className="col-md-6">
+                <div className="col-sm-12" style={{display:"flex",alignItems:"center"}}>
+                <div className="col-md-6 col-sm-12">
                 <label>Name</label>
                 <input
                     type = "text"
@@ -33,7 +33,7 @@ function Contact() {
                     onChange= {(e)=>setName(e.target.value)}
                 />
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 col-sm-12" style={{marginTop:"2vh"}}>
                 <label>Email</label>
                 <input
                     type = "text"

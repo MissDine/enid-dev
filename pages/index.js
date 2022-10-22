@@ -8,6 +8,7 @@ import Services from "../Components/Services"
 import Projects from "../Components/Projects"
 import Experience from "../Components/Experience"
 import Contact from "../Components/Contact"
+import Footer from '../Components/Footer.jsx'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Experience/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
