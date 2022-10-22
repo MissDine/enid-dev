@@ -13,7 +13,18 @@ function Header() {
         </div>
         <div className="col-md-6" style={{marginTop:"-2vh", marginLeft:"3vw"}}>
           <h1>My name is Enid Nyatichi,</h1>
-          <h1>And I am a <span>Software Developer</span></h1>
+          <h1>And I am a  
+          <Typed className="typ"
+          strings={[
+            " Fullstack Software Developer"
+            // "We value our students"
+          ]}
+          typeSpeed={150}
+          backSpeed={150}
+          loop
+        />
+          </h1>
+          <p>Hire Me!</p>
         </div>
       </div>
     </div>
