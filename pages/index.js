@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.css'
 import Navbar from "../Components/Navbar.jsx"
+import  Header from "../Components/Header.jsx"
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
+      <Header/>
     </div>
   )
 }
