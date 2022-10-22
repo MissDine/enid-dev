@@ -12,14 +12,14 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" >
       <Container>
-        <Navbar.Brand href="#home">Enid</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{color:"black"}}>Enid</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#github"><Image src={github} alt="" /></Nav.Link>
-            <Nav.Link href="#github"><Image src={linkedin} alt="" /></Nav.Link>
-            <Nav.Link href="#github"><Image src={email} alt="" /></Nav.Link>
-            <Nav.Link href="#github"><Image src={call} alt="" /></Nav.Link>
+            <Nav.Link href="#linkedin"><Image src={linkedin} alt="" /></Nav.Link>
+            <Nav.Link href="#email"><Image src={email} alt="" /></Nav.Link>
+            <Nav.Link href="#call"><Image src={call} alt="" style={{height:"30px",width:"30px"}}/></Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
