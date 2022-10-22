@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Navbar from "../Components/Navbar.jsx"
 import  Header from "../Components/Header.jsx"
 import About from "../Components/About"
+import Services from "../Components/Services"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar/>
       <Header/>
       <About/>
+      <Services/>
     </div>
   )
 }
