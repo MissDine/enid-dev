@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from "next/image";
 import github from "../images/icons8-github-64.png"
 import linkedin from "../images/icons8-linkedin-64.png"
@@ -12,7 +11,7 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" >
       <Container>
-        <Navbar.Brand href="#home" style={{color:"black"}}>Enid</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{color:"#FF0063",fontSize:"1rem",fontWeight:"600"}}>Enid</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -22,11 +21,11 @@ function NavBar() {
             <Nav.Link href="#call"><Image src={call} alt="" style={{height:"30px",width:"30px"}}/></Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#home" style={{color:"black"}}>Home</Nav.Link>
-            <Nav.Link eventKey={2} href="#about" style={{color:"black"}}>About</Nav.Link>
-            <Nav.Link eventKey={3} href="#services" style={{color:"black"}}>Services</Nav.Link>
-            <Nav.Link eventKey={4} href="#experience" style={{color:"black"}}>Experience</Nav.Link>
-            <Nav.Link eventKey={5} href="#projects" style={{color:"black"}}>Projects</Nav.Link>
+            <Nav.Link href="#home" style={{color:"black",fontSize:"1rem",fontWeight:"300"}}>Home</Nav.Link>
+            <Nav.Link eventKey={2} href="#about" style={{color:"black",fontSize:"1rem",fontWeight:"300"}}>About</Nav.Link>
+            <Nav.Link eventKey={3} href="#services" style={{color:"black",fontSize:"1rem",fontWeight:"300"}}>Services</Nav.Link>
+            <Nav.Link eventKey={4} href="#experience" style={{color:"black",fontSize:"1rem",fontWeight:"300"}}>Experience</Nav.Link>
+            <Nav.Link eventKey={5} href="#projects" style={{color:"black",fontSize:"1rem",fontWeight:"300"}}>Projects</Nav.Link>
             <button style={{backgroundColor:"#FF0063",border:"solid 0px",borderRadius:"20px"}}><Nav.Link eventKey={2} href="#contact" style={{color:"white", fontSize:"1rem",fontWeight:"600"}}>Contact Me</Nav.Link></button>
           </Nav>
         </Navbar.Collapse>
