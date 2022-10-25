@@ -15,10 +15,10 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#github"><Image src={github} alt="" style={{height:"30px",width:"30px"}}/></Nav.Link>
-            <Nav.Link href="#linkedin"><Image src={linkedin} alt="" /></Nav.Link>
-            <Nav.Link href="#email"><Image src={email} alt="" /></Nav.Link>
-            <Nav.Link href="#call"><Image src={call} alt="" style={{height:"30px",width:"30px"}}/></Nav.Link>
+            <Nav.Link href="#github" style={{height:"50px",width:"50px"}}><Image src={github} alt=""/></Nav.Link>
+            <Nav.Link href="#linkedin" style={{height:"50px",width:"50px"}}><Image src={linkedin} alt=""/></Nav.Link>
+            <Nav.Link href="#email" style={{height:"50px",width:"50px"}}><Image src={email} alt="" /></Nav.Link>
+            <Nav.Link href="#call" style={{height:"50px",width:"50px"}}><Image src={call} alt=""/></Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#home" style={{color:"black",fontSize:"1rem",fontWeight:"300"}}>Home</Nav.Link>
