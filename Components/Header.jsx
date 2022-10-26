@@ -25,7 +25,7 @@ function Header() {
           style={{color:"#FF0063"}}
         />
           </h1>
-          <button style={{backgroundColor:"#FF0063",border:"solid 0px",height:"5vh",width:"7vw",color:"#FFFFFF",borderRadius:"30px"}}><p>Hire Me!</p></button>
+          <button style={{backgroundColor:"#FF0063",border:"solid 0px",height:"5vh",width:"10vw",color:"#FFFFFF",borderRadius:"30px",textAlign:"center"}}><p>Hire Me!</p></button>
         </div>
       </div>
     </div>

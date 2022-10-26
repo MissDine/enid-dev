@@ -7,7 +7,7 @@ import Image from "next/image"
 function Projects() {
   return (
     <div className='col-sm-12' style={{backgroundColor:"#EAF6F6"}} id="projects">
-    <h1>My Services</h1>
+    <h1 style={{fontSize:"1rem",fontWeight:"600",color:"#FF0063",textAlign:"center"}}>My Services</h1>
     <div className="row">
             <div className="col-md-4 col-sm-12">
             <Card style={{ width: '18rem' }}>
